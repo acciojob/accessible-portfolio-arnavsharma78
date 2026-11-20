@@ -3,11 +3,44 @@
 <html>
 
 <head>
+	<title>Alex Rivera - Accessible Developer Portfolio</title>
+  
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+        <h1 role="heading">Alex Rivera — Front-End Developer</h1>
+        <nav role="navigation" aria-label="Primary Navigation">
+            <ul role="list">
+                <li role="listitem"><a href="#about">About</a></li>
+                <li role="listitem"><a href="#projects">Projects</a></li>
+                <li role="listitem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <p>
+            I am a front-end developer focused on building clean, responsive, and accessible web applications using semantic HTML, modern CSS, and assistive-technology-friendly patterns.
+        </p>
+
+        <img role="img" src="profile-avatar.jpg" alt="Portrait of Alex Rivera smiling in front of a neutral studio backdrop">
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <ul role="list">
+                <li role="listitem">Accessible Task Manager — Keyboard-navigable productivity app with screen-reader live updates.</li>
+                <li role="listitem">Contrast &amp; Typography Auditor — Web tool for checking text legibility and color contrast ratios.</li>
+                <li role="listitem">Inclusive UI Component Library — Reusable form controls, modals, and navigation patterns.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>Contact: alex.rivera@example.com</p>
+    </footer>
     <script type="text/javascript" src="./script.js">
 </script>
 
